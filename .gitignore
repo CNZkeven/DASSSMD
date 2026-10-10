@@ -1,0 +1,22 @@
+build
+build/
+mx.scratch
+!.settings
+__pycache__/
+*.py[cod]
+uart_gui/gui_launcher.log
+.pytest_cache
+Output/
+Listing/
+.vscode/
+
+# SDD 过程记录：含 task-4-pre-fix/ 里整份旧源码快照（重复了 Libraries/ 与 uCOSIII/）。
+# 保留在本地作历史对照，但不进版本库——否则厂商库会出现两份副本。
+.superpowers/
+
+# Keil MDK 的 per-user 界面布局（含 Windows 用户名）
+*.uvguix.*
+
+# 编辑器/工具本地配置
+.clangd.cache/
+compile_commands.json
